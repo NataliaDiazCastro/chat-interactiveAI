@@ -39,11 +39,11 @@ Para poner en marcha el proyecto localmente, sigue estos pasos:
 
 3. Instala las dependencias:
 
-  ```bash
-  npm install
-  # o
-  yarn install
-  ```
+   ```bash
+   npm install
+     # o
+   yarn install
+   ```
 
 ## Configuración
 
@@ -56,23 +56,23 @@ Para interactuar con el chatbot y asegurarte de que pueda responder correctament
 ## Comandos para desarrollo
 
 Comandos para ejecutar el proyecto en un entorno de desarrollo:
-
-  ```bash
-  npm run dev
-  # o 
-  yarn run dev
-  ```
+   
+   ```bash
+   npm run dev
+     # o
+   yarn dev
+   ```
 
 ## Estructura del proyecto
 
-  ```
-  src/
-  ├── api/
-  │   └── openai.ts    # Lógica para interactuar con la API de OpenAI
-  ├── App.tsx          # Componente principal de la aplicación
-  ├── App.css          # Estilos globales de la aplicación
-  └── index.tsx        # Punto de entrada de la aplicación
-  ```
+   ```
+   src/
+   ├── api/
+   │   └── openai.ts    # Lógica para interactuar con la API de OpenAI
+   ├── App.tsx          # Componente principal de la aplicación
+   ├── App.css          # Estilos globales de la aplicación
+   └── index.tsx        # Punto de entrada de la aplicación
+   ```
 
 ## Uso
 
